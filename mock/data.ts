@@ -1,0 +1,47 @@
+export const data = {
+  status: "success",
+  data: [
+    {
+      id: 1,
+      name: "Item One",
+      description: "This is the first item",
+      price: 19.99,
+      available: true,
+      image_url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    },
+    {
+      id: 2,
+      name: "Item Two",
+      description: "This is the second item",
+      price: 29.99,
+      available: false,
+      image_url: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308",
+    },
+    {
+      id: 3,
+      name: "Item Three",
+      description: "This is the third item",
+      price: 39.99,
+      available: true,
+      image_url: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca",
+    },
+    {
+      id: 4,
+      name: "Item Four",
+      description: "This is the fourth item",
+      price: 59.99,
+      available: true,
+      image_url: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca",
+    },
+    {
+      id: 5,
+      name: "Item five",
+      description: "This is the 5 item",
+      price: 89.99,
+      available: true,
+      image_url: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca",
+    },
+  ],
+  message: "Data fetched successfully",
+  timestamp: "2025-06-26T13:41:00Z",
+};
